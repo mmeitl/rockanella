@@ -1,0 +1,37 @@
+body {
+	/* background-image: url("../images/55.jpg"); */
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #DEE7EF !important;
+    color: #5A79A5 !important;
+    padding-top: 100px;
+}
+
+#rockanellanav {
+    background-color: #AA1111 !important;
+    
+
+}
+
+.navbrand {
+    color: #FFF !important;
+}
+
+.navlinks {
+    color: #FFF !important;
+}
+
+
+
+
+    
+.active {
+    
+    background-color: #5A79A5 !important;
+    color: #FFF !important;
+    
+    
+}
+
