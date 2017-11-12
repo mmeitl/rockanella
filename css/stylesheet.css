@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Lobster');
 body {
 	/* background-image: url("../images/55.jpg"); */
 	background-position: center center;
@@ -5,33 +6,23 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 	background-color: #DEE7EF !important;
-    color: #5A79A5 !important;
-    padding-top: 100px;
+	color: #5A79A5 !important;
+	padding-top: 100px;
 }
-
 #rockanellanav {
-    background-color: #AA1111 !important;
-    
-
+	background-color: #AA1111 !important;
 }
-
 .navbrand {
-    color: #FFF !important;
+	color: #FFF !important;
+	font-family: 'Anton', sans-serif;
+	font-weight: bold;
+	font-size: 200% !important;
 }
-
 .navlinks {
-    color: #FFF !important;
+	color: #FFF !important;
 }
-
-
-
-
-    
 .active {
-    
-    background-color: #5A79A5 !important;
-    color: #FFF !important;
-    
-    
+	background-color: #5A79A5 !important;
+	color: #FFF !important;
 }
 
