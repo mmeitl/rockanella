@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Lobster');
 body {
-	/* background-image: url("../images/55.jpg"); */
+	background-image: url("../images/Austin.JPG");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -9,29 +9,25 @@ body {
 	color: #5A79A5 !important;
 	padding-top: 100px;
 }
-
-
-
 h2 {
-    font-family: 'Lobster', cursive !important;
-    font-weight: bold !important;
-    
+	font-family: 'Lobster', cursive !important;
+	font-weight: bold !important;
 }
-
 h4 {
-    font-family: 'Anton', sans-serif !important;
-    font-size: 95% !important;
+	font-family: 'Anton', sans-serif !important;
+	font-size: 95% !important;
 	color: #5A79A5 !important;
-	
 }
-
 p {
-    font-family: 'Anton', sans-serif !important;
-    
+	font-family: 'Anton', sans-serif !important;
 }
-
 #rockanellanav {
 	background-color: #AA1111 !important;
+}
+.blue {
+	/*background-color: #DEE7EF; */
+	background-color: rgba(222, 231, 239, .85);
+	/*opacity: 0.95;*/
 }
 .navbrand {
 	color: #FFF !important;
@@ -47,29 +43,38 @@ p {
 	background-color: #5A79A5 !important;
 	color: #FFF !important;
 }
-
 .card {
-    background-color: #DEE7EF !important;
-    font-size: 85% !important;
+	background-color: #DEE7EF !important;
+	font-size: 85% !important;
 }
-
-.services{
+.services {
 	color: #5A79A5 !important;
 	font-size: 95%;
 }
-
-
-[data-toggle="collapse"] i:before{   
-  content: "\f068";
+[data-toggle="collapse"] i:before {
+	content: "\f068";
 }
-
-[data-toggle="collapse"].collapsed i:before{
-  content: "\f067";
+[data-toggle="collapse"].collapsed i:before {
+	content: "\f067";
 }
-
 .anchor {
-    padding-top: 150px;
-    margin-top: -120px;
+	padding-top: 150px;
+	margin-top: -120px;
 }
-
-
+.my-container {
+	position: relative;
+	overflow: hidden;
+}
+.my-container h1 {
+	padding: 200px;
+	position: relative;
+	z-index: 2;
+}
+.my-container img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	opacity: 0.6;
+}
